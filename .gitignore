@@ -1,0 +1,63 @@
+# =========================
+# Challenge data
+# =========================
+dataset/
+*.tsv
+*.csv
+
+# =========================
+# Generated outputs
+# =========================
+output/
+output_v2/
+output_v3/
+output_v4/
+outputs/
+results/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# =========================
+# Large ML artifacts
+# =========================
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Logs / profiling
+# =========================
+*.log
+*.prof
+*.profraw
+
+# =========================
+# Secrets / environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# OS
+# =========================
+.DS_Store
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.tar
+*.tar.gz
